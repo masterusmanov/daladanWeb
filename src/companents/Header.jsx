@@ -5,7 +5,7 @@ import Logo from '../assets/images/Logo.svg';
 function Header(){
     return(
         <div className="container mx-auto mt-[24px] flex items-center justify-between px-2 lg:px-0 xl:px-2 2xl:px-0">
-            <img src={Logo} alt="Logo" className='border' />
+            <img src={Logo} alt="Logo" className='' />
             <div className="flex items-center justify-center gap-[16px] xl:gap-[32px]">
                 <div className="dropdown hidden lg:block">
                     <button className="dropbtn"><i className='bx bx-menu text-[14px] xl:text-[20px] rounded-[8px] text-[#25B679] bg-[#E2F0EA] px-[10px] py-[8px] xl:px-[14px] xl:py-[12px] font-custom'> Kategoriya</i></button>
