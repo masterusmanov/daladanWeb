@@ -11,12 +11,33 @@ import hero from '../../assets/images/slider/1.png'
 
 const datas = [
     {img: hero, title: "Donli mahsulotlar"},
-    {img: one, title: "Mevalar"},
+    {img: one, title: "Mahalliy mevalar"},
     {img: two, title: "Poliz ekinlar"},
     {img: three, title: "Sitrus mevalar"},
     {img: four, title: "Dala mahsulotlari"},
     {img: five, title: "Baliq mahsulotlari"},
-    {img: six, title: "Polizchilik"},
+    {img: six, title: "Poliz mahsulotlari"},
+    {img: seven, title: "Chorvachilik"},
+    {img: eight, title: "Parrandachilik"},
+];
+
+const dataOne = [
+    {img: hero, title: "Donli mahsulotlar"},
+    {img: one, title: "Mahalliy mevalar"},
+    {img: two, title: "Poliz ekinlar"},
+    {img: three, title: "Sitrus mevalar"},
+    {img: four, title: "Dala mahsulotlari"},
+    {img: five, title: "Baliq mahsulotlari"},
+    {img: six, title: "Poliz mahsulotlari"},
+    {img: seven, title: "Chorvachilik"},
+    {img: eight, title: "Parrandachilik"},
+    {img: hero, title: "Donli mahsulotlar"},
+    {img: one, title: "Mahalliy mevalar"},
+    {img: two, title: "Poliz ekinlar"},
+    {img: three, title: "Sitrus mevalar"},
+    {img: four, title: "Dala mahsulotlari"},
+    {img: five, title: "Baliq mahsulotlari"},
+    {img: six, title: "Poliz mahsulotlari"},
     {img: seven, title: "Chorvachilik"},
     {img: eight, title: "Parrandachilik"},
 ]
@@ -33,11 +54,11 @@ function CaruselTwo(){
             ))}
         </div>
         <marquee className="xl:hidden">
-            <div className='flex xl:hidden items-center gap-[50px] mt-[70px] xl:px-2 2xl:px-0'>
-                {datas.map((datam, index) => (
-                    <div key={index} className="w-[150px] h-[150px] grid items-center cursor-pointer gap-2">
-                        <img src={datam.img} alt="" className='w-full p-2 border border-black object-cover mx-auto'/>
-                        <h1 className="text-center font-[600]">{datam.title}</h1>
+            <div className='flex items-center gap-[50px] mt-[50px] xl:px-2 2xl:px-0'>
+                {dataOne.map((datam, index) => (
+                    <div key={index} className="grid items-center cursor-pointer gap-2">
+                        <img src={datam.img} alt="" className='w-[70px] h-[70px] md:w-[80px] md:h-[80px] rounded-full mx-auto'/>
+                        <h1 className="text-center font-[600] text-[16px]">{datam.title}</h1>
                     </div>
                 ))}
             </div>

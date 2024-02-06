@@ -1,12 +1,12 @@
 // import React from "react";
-import Carusel from '../../companents/Carusel/Carusel'
-import CaruselTwo from '../../companents/Carusel/CaruselTwo';
+import HomeOne from '../../companents/Carusel/HomeOne'
+import HomeTwo from '../../companents/HomeTwo/HomeTwo';
 
 function Homepage(){
     return(
         <div className="container mx-auto">
-            <Carusel/>
-            <CaruselTwo/>
+            <HomeOne/>
+            <HomeTwo/>
         </div>
     )
 }
