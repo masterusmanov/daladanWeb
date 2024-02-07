@@ -3,7 +3,7 @@ import React from 'react'
 import AppStore from '../../assets/images/sectionfour/AppStore.svg'
 import AppButton from '../../assets/images/sectionfour/AppButton.svg'
 import QRCode from '../../assets/images/sectionfour/QRCode.svg'
-import Phone from '../../assets/images/sectionfour/Phone.svg'
+import Phone from '../../assets/images/sectionfour/phone.svg'
 
 export default function HomeFour(){
     return(
