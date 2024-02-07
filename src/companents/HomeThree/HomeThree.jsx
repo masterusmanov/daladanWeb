@@ -25,7 +25,7 @@ export default function HomeTwo() {
   return (
     <div className="container mx-auto mt-[60px] xl:mt-[100px]">
       <div className="flex items-center justify-between px-2 lg:px-0 xl:px-2 2xl:px-0">
-        <h1 className="text-[16px] md:text-[24px] font-[700]">Mashhur mahsulotlar</h1>
+        <h1 className="text-[16px] md:text-[24px] font-[700]">Poliz mahsulotlar</h1>
         <div className="flex items-center">
           <a href="#" className="text-[#25B679] font-[500] text-[16px]">Barchasini ko`rish</a>
           <i className='bx bx-chevron-right text-[24px] text-[#25B679]'></i>
