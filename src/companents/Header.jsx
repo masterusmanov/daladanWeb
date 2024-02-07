@@ -21,13 +21,13 @@ function Header(){
                     </div>
                     <div className='hidden lg:flex items-center justify-center gap-[16px] xl:gap-[32px] text-[16px] font-custom'>
                         <a href="#" className='flex items-center'><i className='bx bx-user font-custom text-[20px] px-[12px]'></i>Kirish</a>
-                        <a href="#" className='flex items-center'><i className='bx bx-plus-circle text-[20px] px-[12px]'></i>Qo'shish</a>
+                        <a href="#" className='flex items-center'><i className='bx bx-plus-circle text-[20px] px-[12px]'></i>Qo`shish</a>
                         <a href="#" className='flex items-center'><i className='bx bx-heart text-[20px] px-[12px]'></i> Sevimlilar</a>
                     </div>
                     <div>
                     <i className='bx bx-globe' ></i>
                     <select className='bg-[#F7F7F7] outline-none border-none'>
-                        <option value="uz">O'zbekcha</option>
+                        <option value="uz">O`zbekcha</option>
                         <option value="ru">Russkiy</option>
                         <option value="en">English</option>
                     </select>
