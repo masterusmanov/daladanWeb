@@ -1,6 +1,6 @@
 function NavbarFooter(){
     return(
-        <div className="container mx-auto lg:hidden">
+        <div className="fixed bottom-0 left-0 z-5 container mx-auto lg:hidden bg-[#FFF] ">
             <div className="flex items-center p-4 justify-between text-gray-500 font-[600]">
                 <div className="text-center cursor-pointer md:text-[24px]">
                     <i className='bx bx-home-smile'></i>

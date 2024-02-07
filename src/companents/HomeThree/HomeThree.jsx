@@ -24,7 +24,7 @@ export default function HomeTwo() {
 
   return (
     <div className="container mx-auto mt-[60px] xl:mt-[100px]">
-      <div className="flex items-center justify-between px-2 lg:px-0 xl:px-2 2xl:px-0">
+      <div className="flex items-center justify-between px-2 lg:px-0 xl:px-2 2xl:px-0 font-custom">
         <h1 className="text-[16px] md:text-[24px] font-[700]">Poliz mahsulotlar</h1>
         <div className="flex items-center">
           <a href="#" className="text-[#25B679] font-[500] text-[16px]">Barchasini ko`rish</a>
@@ -38,7 +38,7 @@ export default function HomeTwo() {
                   <i className='bx bx-heart absolute text-[24px] ml-[100px] md:ml-[160px] p-2 bg-red-200 rounded-full mt-[5px] md:mt-[10px]'></i>
                   <img src={data.image} alt="image" className=" p-2 w-full rounded-t-2xl h-[180px] md:h-[220px] lg:h-[250px] 2xl:h-[300px] object-cover"/>
                 </div>
-                <div className="p-2">
+                <div className="p-2 font-custom">
                     <p className="text-[14px] text-[#6B6B6B]"><i className='bx bx-alarm'></i> {new Date().getDate()}.{new Date().getMonth() + 1}.{new Date().getFullYear()}</p>
                     <h1 className="text-[#979797] text-[14px] md:text-[17px] mt-[15px]">{data.title.slice(0, 15)}...</h1>
                     <p className="text-[#25B679] font-[700] text-[20px] mt-[15px] md:mt-[30px]">${data.price}</p>
